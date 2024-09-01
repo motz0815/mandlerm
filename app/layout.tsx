@@ -7,9 +7,9 @@ import type { Metadata } from "next"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-    title: "KnowTheWeb",
+    title: "Matthias Mandler - Portfolio",
     description:
-        "KnowTheWeb | Learn what a website is made of. Search for websites by their technologies, and get insights on how they are built.",
+        "I'm Matthias Mandler, a web developer from Austria. I build websites and web applications using modern web technologies.",
     keywords: ["websites", "web technologies", "web development"],
 }
 
