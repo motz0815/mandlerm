@@ -4,7 +4,7 @@ import "@/styles/globals.css"
 import { Analytics } from "@vercel/analytics/react"
 import { GeistMono } from "geist/font/mono"
 import { GeistSans } from "geist/font/sans"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
@@ -12,6 +12,13 @@ export const metadata: Metadata = {
     description:
         "I'm Matthias Mandler, a web developer from Austria. I build websites and web applications using modern web technologies.",
     keywords: ["websites", "web technologies", "web development"],
+}
+
+export const viewport: Viewport = {
+    initialScale: 1,
+    width: "device-width",
+    maximumScale: 1,
+    viewportFit: "cover",
 }
 
 export default function RootLayout({
